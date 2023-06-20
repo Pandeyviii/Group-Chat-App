@@ -47,6 +47,10 @@
             <input type="text" name="creategroup" id="create-group-name-user" placeholder="Enter GROUP NAME">
             <button class="btn btn-primary" type="submit" >Create Group</button>
        </form>
+       <div id="toast-msg"></div>
+    
+
+    </div>
        <form id="create-group-user" onsubmit="addUserToGroup(event)">
         <h5>Add user to Group</h5>
         <div>
@@ -82,10 +86,10 @@
     <ul id="chat-messages">
 
     </ul>
-    <div id="toast-msg"></div>
+    <!-- <div id="toast-msg"></div>
     
 
-    </div>
+    </div> -->
     <div class="send">
         <form id="send-container" onsubmit="chat(event)">
              <input type="text" name="chat2" id="messageinp" placeholder="Enter Message">
